@@ -1,14 +1,11 @@
 import { Button } from "@mui/material";
 import Grid2 from "@mui/material/Unstable_Grid2";
-import type { V2_MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
-import { useState } from "react";
-import PrimarySearchAppBar from "~/components/AppBar";
 
-import TemporaryDrawer from "~/components/Drawer";
 import Navigation from "~/components/Navigation";
 
-export const meta: V2_MetaFunction = () => {
+export const meta: MetaFunction = () => {
   return [
     { title: "fahadkhan174" },
     { name: "description", content: "Welcome to Remix!" },

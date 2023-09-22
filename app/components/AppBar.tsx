@@ -293,7 +293,6 @@ export default function PrimarySearchAppBar({ toggleDrawer, children }: Props) {
               aria-label="account of current user"
               aria-controls={menuId}
               aria-haspopup="true"
-              // onClick={handleProfileMenuOpen}
               color="inherit"
               onClick={() => toggleDrawer("right", true)}
             >
